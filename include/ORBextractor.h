@@ -23,11 +23,8 @@
 
 #include <vector>
 #include <list>
-#ifdef OPENCV4
 #include <opencv2/opencv.hpp>
-#else
-#include <opencv/cv.h>
-#endif
+
 
 
 //这个文件主要负责进行ORB特征点的提取和数目分配功能

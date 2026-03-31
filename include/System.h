@@ -29,6 +29,7 @@
 //一些公用库的支持，字符串操作，多线程操作，以及opencv库等
 #include <string>
 #include <thread>
+#include <unistd.h>
 #include <opencv2/core/core.hpp>
 
 //下面则是本ORB-SLAM2系统中的其他模块
